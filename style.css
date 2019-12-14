@@ -41,8 +41,11 @@ h2:hover {
     color: cornsilk;
 }
 
+
+
 p {
     font-family:'Pacifico', cursive ;
+    
 }
 
 #skin-full {
@@ -54,19 +57,23 @@ p {
     justify-content: center;
     align-items: stretch;
     flex-wrap: nowrap;
+    background: rgb(222, 232, 236);
 
 }
 
 #skin1 
 {
     background: rgb(224, 199, 199);
+    
    align-self: start;
     display: flex;
     flex-direction: column;
+
 }  
 
 #skin2 {
     background: rgb(193, 223, 223);
+    
     padding-top: 2em;
     padding-bottom: 2em;
     display: flex;
@@ -80,7 +87,18 @@ p {
     flex-direction: column;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
+    .skin {
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.4fr;
+    }
 
-}
+    .skin {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
 
