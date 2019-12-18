@@ -28,6 +28,7 @@ h4 {
     font-size: 30px;
     text-align: justify;
     color: rgb(109, 109, 177);
+    background: cornsilk;
 }
 
 h2 {
@@ -47,9 +48,11 @@ p {
     font-family:'Pacifico', cursive ;
     
 }
-
+ img {
+    float: center;
+ }
 #skin-full {
-    border: saddlebrown;
+    
     display: grid;
     grid-template-rows: 2fr;
     gap: 1em;
@@ -57,13 +60,13 @@ p {
     justify-content: center;
     align-items: stretch;
     flex-wrap: nowrap;
-    background: rgb(222, 232, 236);
+    background: rgb(217, 224, 220);
 
 }
 
 #skin1 
 {
-    background: rgb(224, 199, 199);
+    background:rgb(236, 227, 236);
     
    align-self: start;
     display: flex;
@@ -72,7 +75,7 @@ p {
 }  
 
 #skin2 {
-    background: rgb(193, 223, 223);
+    background: rgb(236, 230, 236);
     
     padding-top: 2em;
     padding-bottom: 2em;
@@ -81,16 +84,22 @@ p {
 }
 
 #skin3 {
-    background: rgb(195, 228, 208);
+    background:rgb(238, 231, 237);
+    
     align-self:flex-end;
     display: flex;
     flex-direction: column;
 }
 
-@media (min-width: 1000px) {
+
+@media (min-width: 800px) {
     .skin {
     display: grid;
-    grid-template-columns: 0.7fr 0.7fr 0.4fr;
+    grid-template-columns: 1fr;
+    margin-right: 6em;
+    margin-left: 6em;
+    padding-right: 4em;
+    padding-left: 4em;
     }
 
     .skin {
@@ -101,4 +110,15 @@ p {
     h4 {
         text-align: center;
     }
+
+    .image {
+        background-image: url(https://images.pexels.com/photos/2382738/pexels-photo-2382738.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        align-items: center;
+    } 
+    
+    img {
+        align-self: baseline;
+    }
+
+   
 
