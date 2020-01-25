@@ -1,20 +1,21 @@
 /* header */
 #skin-h .skinimg {
-    background: #333 url( https://images.pexels.com/photos/2622187/pexels-photo-2622187.jpeg);
-
+    /* background: #333 url( https://images.pexels.com/photos/2622187/pexels-photo-2622187.jpeg); */
+    background: url(https://images.pexels.com/photos/1089842/pexels-photo-1089842.jpeg);
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height:750px;
+    width: 90%;
+    height: 5700px;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.7;
+
 }
 
 #skin-h .skinheading {
     padding: 3em;
-    font-family:'Shadows Into Light', cursive;w
+    font-family:'Shadows Into Light', cursive;
     text-align: center;
     font-size: 50px;
 }
@@ -60,7 +61,7 @@ p {
     justify-content: center;
     align-items: stretch;
     flex-wrap: nowrap;
-    background: rgb(217, 224, 220);
+    /* background: rgb(217, 224, 220); */
 
 }
 
@@ -98,8 +99,8 @@ p {
     grid-template-columns: 1fr;
     margin-right: 6em;
     margin-left: 6em;
-    padding-right: 4em;
-    padding-left: 4em;
+    margin-right: 4em;
+    /* padding-left: 4em; */
     }
 
     .skin {
@@ -112,7 +113,7 @@ p {
     }
 
     .image {
-        background-image: url(https://images.pexels.com/photos/2382738/pexels-photo-2382738.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        /* background-image: url(https://images.pexels.com/photos/2382738/pexels-photo-2382738.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);  */
         align-items: center;
     } 
     
